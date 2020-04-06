@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Saboteur.cardClasses.SaboteurCard"/>
+<fullyQualifiedTypeName name="Saboteur.cardClasses.SaboteurTile"/>
+<fullyQualifiedTypeName name="Saboteur.SaboteurMove"/>
+</qualifiedTypeNameHistroy>

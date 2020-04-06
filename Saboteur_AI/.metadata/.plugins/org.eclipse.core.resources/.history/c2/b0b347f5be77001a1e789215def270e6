@@ -1,0 +1,13 @@
+package student_player;
+
+public class MyTools {
+	
+	public int[] goldLocation = null;
+	public int[] hiddenObkectives = new int[0, 0, 0];
+	
+	public void 
+	
+    public static double getSomething() {
+        return Math.random();
+    }
+}

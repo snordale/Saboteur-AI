@@ -184,3 +184,92 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.oomph.setup.ui 1 0 2020-04-05 00:51:52.103
 !MESSAGE Setup tasks were performed during startup updating 5 preferences. See '/Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+!SESSION 2020-04-05 22:33:53.105 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/samNordale/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/samNordale/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.silentdeployment', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.openBrightScriptTelnetConsole', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.resume_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.suspend_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.terminate_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.step_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.over_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.out_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='org.eclipse.dltk.ui.edit.text.script.toggleMarkOccurrences', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:00.583
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.webtools.menus.rokuCommandStatic', categoryId='com.roku.brightscript.plugin.category'
+
+!ENTRY org.eclipse.ui 2 0 2020-04-05 22:34:01.295
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:01.296
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.silentdeployment', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:01.296
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.openBrightScriptTelnetConsole', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:01.296
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.resume_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:01.296
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.suspend_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:01.296
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.terminate_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:01.296
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.step_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:01.296
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.over_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:01.296
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.ide.eclipse.core.out_debugger', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:01.296
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='org.eclipse.dltk.ui.edit.text.script.toggleMarkOccurrences', categoryId='com.roku.brightscript.plugin.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-04-05 22:34:01.296
+!MESSAGE Commands should really have a category: plug-in='com.roku.brightscript.plugin', id='com.roku.brightscript.webtools.menus.rokuCommandStatic', categoryId='com.roku.brightscript.plugin.category'
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-05 22:34:01.769
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2020-04-05 22:34:01.824
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2020-04-05 22:34:19.733
+!MESSAGE Setup tasks were performed during startup updating 5 preferences. See '/Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+
+!ENTRY org.eclipse.ui 4 0 2020-04-05 22:40:00.682
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)

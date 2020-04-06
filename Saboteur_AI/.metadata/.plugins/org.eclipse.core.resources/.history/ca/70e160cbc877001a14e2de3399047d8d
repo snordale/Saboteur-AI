@@ -1,0 +1,73 @@
+package student_player;
+
+import boardgame.Move;
+
+import Saboteur.SaboteurPlayer;
+import Saboteur.cardClasses.SaboteurTile;
+import Saboteur.SaboteurBoardState;
+import Saboteur.SaboteurMove;
+
+import java.util.*;
+
+
+/** A player file submitted by a student. */
+public class StudentPlayer extends SaboteurPlayer {
+
+    /**
+     * You must modify this constructor to return your student number. This is
+     * important, because this is what the code that runs the competition uses to
+     * associate you with your agent. The constructor should do nothing else.
+     */
+    public StudentPlayer() {
+        super("260730745");
+    }
+
+    /**
+     * This is the primary method that you need to implement. The ``boardState``
+     * object contains the current state of the game, which your agent must use to
+     * make decisions.
+     */
+    public Move chooseMove(SaboteurBoardState boardState) {
+        // You probably will make separate functions in MyTools.
+        // For example, maybe you'll need to load some pre-processed best opening
+        // strategies...
+        
+        System.out.println("fuck");
+        SaboteurTile[][] board = boardState.getHiddenBoard();
+        System.out.println(boardState.getHiddenBoard().length);
+        System.out.println(boardState.getHiddenBoard()[0].length);
+        System.out.println(boardState.getHiddenBoard()[3][12].getName());
+//        for (int i = 0; i < 15; i++) {
+//        	System.out.println();
+//        	System.out.print("Row " + i +": ");
+//        	for (int j = 0; j < 15; j++) {
+//        		SaboteurTile tile = board[i][j];
+//        		System.out.print(i + ",");
+//        		System.out.println(j);
+//        		System.out.print(tile.getName());
+//        	}
+//        }
+//        System.out.println();
+//        
+//        
+//        List<Saboteur.SaboteurMove> potentialMoves = boardState.getAllLegalMoves();
+//        Iterator<Saboteur.SaboteurMove> iter = potentialMoves.iterator();
+//        int max_y = -1;
+//        System.out.println("My Hand:");
+//        while ( iter.hasNext() ) {
+//        	Saboteur.SaboteurMove move = iter.next();
+//        	Saboteur.cardClasses.SaboteurCard card = move.getCardPlayed();
+//        	System.out.println("  " + card.getName());
+//        	if (card.getName().split("/")[0].equals("Map")) {
+//        		return new Saboteur.SaboteurMove(card, 3, 12, boardState.getTurnPlayer());
+//        	}
+//        }
+//        System.out.println();
+//        
+        // Is random the best you can do?
+        Move myMove = boardState.getRandomMove();
+
+        // Return your move to be processed by the server.
+        return myMove;
+    }
+}
