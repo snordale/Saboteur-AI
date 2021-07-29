@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
 <fullyQualifiedTypeName name="Saboteur.cardClasses.SaboteurCard"/>
-<fullyQualifiedTypeName name="Saboteur.cardClasses.SaboteurTile"/>
+<fullyQualifiedTypeName name="Saboteur.SaboteurBoardState"/>
+<fullyQualifiedTypeName name="Saboteur.cardClasses.SaboteurDrop"/>
+<fullyQualifiedTypeName name="Saboteur.cardClasses.SaboteurMalus"/>
+<fullyQualifiedTypeName name="Saboteur.cardClasses.SaboteurMap"/>
+<fullyQualifiedTypeName name="Saboteur.cardClasses.SaboteurBonus"/>
 <fullyQualifiedTypeName name="Saboteur.SaboteurMove"/>
+<fullyQualifiedTypeName name="Saboteur.cardClasses.SaboteurTile"/>
 </qualifiedTypeNameHistroy>
